@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💃 Workshop Week 1 Homework</title>
+    <style>
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        text-align: center;
+        color: #1a64d6;
+      }
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        text-align: center;
+        line-height: 10px;
+        font-size: 34px;
+        font-weight: lighter;
+      }
+      h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 18px;
+      }
+      strong {
+        font-weight: bold;
+      }
+      ul {
+        display: block;
+        margin: 0 auto;
+        padding: 1px;
+      }
+      li {
+        background: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 18px 100px;
+        width: 180px;
+        height: 80px;
+        border-radius: 15px;
+        cursor: text;
+        transition-duration: all 200ms ease-in-out;
+      }
+      li:hover {
+        background-color: #fffbef;
+      }
+      button {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        display: block;
+        margin: 15px auto;
+        color: white;
+        background: #1a64d6;
+        text-align: center;
+        border: 1px solid#1a64d6;
+        border-radius: 35px;
+        line-height: 25px;
+        padding: 18px 24px;
+        box-shadow: 0px 4px 4px 0px rgba(145, 143, 143, 0.2);
+        transition-duration: 500ms ease-in-out;
+        outline: currentColor;
+      }
+      button:hover {
+        color: #1a64d6;
+        font-size: 15px;
+        background: whitesmoke;
+        border-color: #1a64d6;
+        border-spacing: 1em;
+        cursor: pointer;
+      }
+      p {
+        font-family: monospace;
+        font-size: 17px;
+        opacity: 0.65;
+        display: block;
+        text-align: center;
+      }
+      .temperature {
+        font-size: 30px;
+        margin: 0 auto;
+      }
+      .coder {
+        font-family: monospace;
+        font-size: 18px;
+        opacity: 0.65;
+        display: block;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🌤️<br />Currently 21° in Tokyo</h1>
+    <h2>13° / <strong>23°</strong></h2>
+    <ul>
+      <li>
+        <h3><strong>🌧️Tomorrow</strong></h3>
+        <p>10° / <strong>22°</strong></p>
+      </li>
+      <li>
+        <h3><strong>🌥️Saturday</strong></h3>
+        <p>15° / <strong>17°</strong></p>
+      </li>
+      <li>
+        <h3><strong>☀️Sunday</strong></h3>
+        <p>25° / <strong>28°</strong></p>
+      </li>
+    </ul>
+    <button>
+      Change city
+    </button>
+    <p class="coder">
+      Coded by Esther Sim 😼
+    </p>
+  </body>
+</html>
